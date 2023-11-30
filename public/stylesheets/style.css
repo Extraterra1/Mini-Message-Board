@@ -17,6 +17,7 @@
   --gray-700: #495057;
   --gray-800: #343a40;
   --gray-900: #212529;
+  font-size: 10px;
 }
 
 * {
@@ -31,6 +32,9 @@ body {
     Helvetica,
     Arial,
     sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -40,17 +44,27 @@ a {
 #header {
   display: flex;
   background-color: var(--gray-700);
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 4rem;
   color: var(--light);
   justify-content: space-between;
   align-items: center;
 }
 
+#header h1 {
+  font-size: 3rem;
+}
+
 .socials {
   display: flex;
   gap: 2rem;
-  font-size: 2rem;
+  font-size: 3rem;
   cursor: pointer;
+}
+
+main {
+  padding: 10rem;
+  background-color: var(--gray-400);
+  flex-grow: 1;
 }
 
 a {
