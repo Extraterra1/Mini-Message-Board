@@ -13,11 +13,11 @@
       <form action="/new" method="POST">
         <div class="form-group">
             <label for="username">Your Username</label>
-            <input id="username" name="username" type="text" minlength="3" maxlength="12" placeholder="hunter2">
+            <input required id="username" name="username" type="text" minlength="3" maxlength="12" placeholder="hunter2">
         </div>
         <div class="form-group">
             <label for="msg">Your Message</label>
-            <textarea name="msg" id="msg" cols="30" rows="10" ></textarea>
+            <textarea required name="msg" id="msg" cols="30" rows="10" ></textarea>
         </div>
         <button>Send</button>
       </form>

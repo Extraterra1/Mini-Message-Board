@@ -64,4 +64,13 @@ router.get('/new', (req, res) => {
   res.render('new', { title: 'New Message | Mini Message Board' });
 });
 
+router.post('/new', (req, res) => {
+  messages.unshift({
+    text: req.body.msg,
+    user: req.body.username,
+    added: moment().format('ddd, MMM Do YYYY')
+  });
+  res.redirect('/');
+});
+
 module.exports = router;
