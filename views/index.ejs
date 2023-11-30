@@ -1,11 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
+    <nav id="header">
+      <h1><%= title %></h1>
+      <div class="socials">
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-github"></ion-icon>
+      </div>
+    </nav>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
