@@ -39,4 +39,21 @@ a {
 
 #header {
   display: flex;
+  background-color: var(--gray-700);
+  padding: 1.5rem 1rem;
+  color: var(--light);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
