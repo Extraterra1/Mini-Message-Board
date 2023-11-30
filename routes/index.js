@@ -60,4 +60,8 @@ router.get('/', function (req, res, next) {
   res.render('index', { title: 'Mini Message Board', messages });
 });
 
+router.get('/new', (req, res) => {
+  res.render('new', { title: 'New Message | Mini Message Board' });
+});
+
 module.exports = router;
