@@ -38,7 +38,8 @@ body {
 }
 
 a {
-  color: #00b7ff;
+  text-decoration: none;
+  color: inherit;
 }
 
 #header {
@@ -73,7 +74,29 @@ main .title {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+.msg-grid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.msg-grid .msg {
+  background-color: var(--light);
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.msg {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.msg-content {
+  margin-left: 2rem;
+}
+
+.msg-header span {
+  font-weight: 700;
 }

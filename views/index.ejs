@@ -20,7 +20,7 @@
         <% messages.forEach(e => { %>
          <div class="msg">
           <div class="msg-header">
-            <%= `${e.user} on ${e.added}` %>
+            <span><%= e.user %></span><%= ` on ${e.added}` %>
           </div>
           <div class="msg-content"><%= e.text %></div>
          </div>

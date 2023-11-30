@@ -22,6 +22,36 @@ const messages = [
     text: 'Feeling great today!',
     user: 'EmilyRose',
     added: moment().format('ddd, MMM Do YYYY')
+  },
+  {
+    text: 'Hey, long time no see!',
+    user: 'Sara21',
+    added: moment().format('ddd, MMM Do YYYY')
+  },
+  {
+    text: 'Just chilling on a lazy Sunday.',
+    user: 'Mark87',
+    added: moment().format('ddd, MMM Do YYYY')
+  },
+  {
+    text: 'Whats your favorite hobby?',
+    user: 'LilyGreen',
+    added: moment().format('ddd, MMM Do YYYY')
+  },
+  {
+    text: 'Hows the weather over there?',
+    user: 'AlexWinter',
+    added: moment().format('ddd, MMM Do YYYY')
+  },
+  {
+    text: 'Working hard or hardly working?',
+    user: 'ChrisCoder',
+    added: moment().format('ddd, MMM Do YYYY')
+  },
+  {
+    text: 'Pizza or burgers for dinner?',
+    user: 'Foodie123',
+    added: moment().format('ddd, MMM Do YYYY')
   }
 ];
 
