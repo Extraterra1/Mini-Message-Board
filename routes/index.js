@@ -1,26 +1,27 @@
 const express = require('express');
+const moment = require('moment');
 const router = express.Router();
 
 const messages = [
   {
     text: 'Hey how you doing',
     user: 'hunter2',
-    added: new Date()
+    added: moment().format('ddd, MMM Do YYYY')
   },
   {
     text: 'Im good, thanks for asking!',
     user: 'Alice123',
-    added: new Date()
+    added: moment().format('ddd, MMM Do YYYY')
   },
   {
     text: 'Whats up?',
     user: 'BobSmith',
-    added: new Date()
+    added: moment().format('ddd, MMM Do YYYY')
   },
   {
     text: 'Feeling great today!',
     user: 'EmilyRose',
-    added: new Date()
+    added: moment().format('ddd, MMM Do YYYY')
   }
 ];
 
